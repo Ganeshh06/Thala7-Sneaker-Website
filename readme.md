@@ -4,6 +4,11 @@
 
 Thala 7 is a modern and responsive sneaker e-commerce website built using HTML and CSS. The website showcases premium sneakers with an attractive user interface, product details, shopping cart functionality, and a checkout section.
 
+
+## Live Demo
+https://ganeshh06.github.io/Thala7-Sneaker-Website/
+
+
 ## Features
 
 * Responsive design for Desktop, Tablet, and Mobile devices
@@ -86,6 +91,8 @@ Displays detailed information about the featured sneaker with image gallery and 
 
 
 ### Checkout
+
+
 
 
 
