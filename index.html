@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneaker</title>
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div class="container"></div> -->
+    <header> 
+         <nav>
+            <div class="logo">
+                <h1>Thala <span>7.</span></h1>
+            </div>
+            <ul class="menu">
+                <li>Men</li>
+                <li>Women</li>
+                <li>Kids</li>
+                <li>Sports</li>
+                <li>Brands</li>                
+            </ul>
+            <div class="nav-right">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Search">
+            </div>
+            <div class="cart-profile">
+               <a href="#cart"><i class="fa-solid fa-cart-arrow-down"></i></a> 
+        <img src="image\users.webp" alt=""></div>
+            
+         </nav>
+    </header>
+  <main>
+    <section id="home" class="hero">
+        <div class="leftside-home">
+            <h1>Step Into Style & <br> <span>Comfort</span></h1>
+            <p>
+                Discover premium sneakers and sports shoes crafted for comfort, performance, and everyday style. 
+                Whether you're on the move or making a statement, we've got the perfect pair for every step. <br>
+            </p>
+           <a href="#product" class="bttn">Shop Now</a>
+        </div>
+        <div class="rightside-home">
+<img src="image\shoe1.webp" alt="">
+        </div>
+    </section>
+    <section class="service">
+        <div class="services">
+            <div class="try">
+                <div class="servic-box"> <img src="image\reviews.webp" alt="">
+        </div>
+        <div class="text">
+            <h2>2K+</h2>
+        <p>Reviews</p>
+        </div>  
+            </div>
+              
+        <div class="try">
+            <div class="service-box"> <img src="image\coustemr.webp" alt="">
+        </div>
+        <div class="text">
+            <h2>30k+</h2>
+        <p>Customers</p>
+        </div>
+        </div>
+        
+        <div class="try">
+            <div class="service-box"><img src="image\reviews.webp" alt="">
+        </div>
+        <div class="tex">
+             <h2>High</h2>
+        <p>Quality</p>
+        </div>
+        </div>
+        
+       <div class="try"><div class="service-box"><img src="reviews.webp" alt=""></div>
+        <div class="text">
+            <h2>4.5/5</h2>
+        <p>Rating</p>
+        </div></div>
+        
+        
+        
+        </div>
+        
+        
+    </section> 
+  <section id="product"  class="product-detail">
+    <div class="leftproduct-img">
+        <img src="image\shoe5.webp" alt="">
+    </div>
+    <div class="rightproduct-detail">
+        <h1>Nike Air Max <span class="design">270</span></h1>
+<p>
+    Experience ultimate comfort and modern style with the Nike Air Max 270.
+    Designed with a lightweight mesh upper and responsive Air cushioning,
+    these sneakers provide excellent support for daily wear, workouts, and
+    casual outings. The sleek design, durable sole, and premium materials
+    make them a perfect choice for anyone looking to combine fashion with
+    performance.
+</p>
+<div class="price-detail">
+    <button class="price-bttn">₹1499</button>
+    <div class="content1">
+        <h3>Save 12%</h3>
+    <p>Inclusive of all taxes</p>
+    </div>
+    
+</div>
+<div class="cart-button1">
+    <label for="qty"></label>
+    <select id="qty">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="more">More</option>
+    </select>
+    <a href="#cart" class="cart-button">ADD TO CART</a>
+</div>
+
+<div class="product-gallery">
+    <!-- <div class="thumbnails"> -->
+        <img src="image\shoe2.webp" onclick="changeImage(this)">
+        <img src="image\shoe6.webp" onclick="changeImage(this)">
+        <img src="image\shoe5.webp" onclick="changeImage(this)">
+        <img src="image\shoe7.webp" onclick="changeImage(this)">
+        <img src="image\shoe4.webp" onclick="changeImage(this)">
+        <img src="image\shoe3.webp" onclick="changeImage(this)">
+        <img src="image\shoe3.webp" onclick="changeImage(this)">
+        <!-- <img src="shoe1.png" onclick="changeImage(this)"> -->
+    <!-- </div> -->
+</div>
+    </div>
+  </section>     
+     
+    <section id="cart" class="shoping-cart">
+        <div class="left-container">
+            <h1>Shopping Cart</h1>
+            <table class="table">
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>Nike Air Max 7</td>
+                    <td><button>- 1 +</button></td>
+                    <td>₹1499 </td>
+                    <td>❌</td>
+                </tr>
+                <tr>
+                    <td>Nike Air Max 3</td>
+                    <td><button>- 1 +</button></td>
+                    <td>₹1000 </td>
+                    <td>❌</td>
+                </tr>
+                 <tr>
+                    <td>Assian 3</td>
+                    <td><button>- 1 +</button></td>
+                    <td>₹1699 </td>
+                    <td>❌</td>
+                </tr>
+            </table>
+
+        </div>
+        <div class="right-side">
+            <p>Enter Coupan Code</p>
+            <label for="coupan"></label>
+            <input type="text" id="coupan" placeholder="3DE45C">
+            <button class="apply-btn">Apply Coupan</button>
+           <table class="table1">
+            <tr>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>Sub Total</td>
+                <td>₹4198</td>
+            </tr>
+            <tr>
+                <td>Taxes(if applicable)</td>
+                <td>₹199</td>
+            </tr>
+            <tr>
+                <td>Discount</td>
+                <td>₹0</td>
+            </tr>
+            <tr>
+                <td><h4>Total</h4></td>
+                <td><h4>₹4397</h4></td>
+            </tr>
+           </table>
+           <div class="pay-button">
+            <button class="pay-bttn"><a href="#payment">Pay Now ₹4397</a></button>
+            
+           </div>
+           <div class="imgpay">
+            <img src="image\rozorpay1.webp" alt="">
+           <img src="image\secure.webp" alt="">
+           </div>
+           
+        </div>
+    </section>
+    
+    <section id="payment" class="checkout-section">
+
+    <!-- Left Side -->
+    <div class="checkout-left">
+
+        <h2>Contact Details</h2>
+
+        <label>Card Holder Name</label>
+        <input type="text" placeholder="John Doe">
+
+        <label>Email Address</label>
+        <input type="email" placeholder="example@gmail.com">
+
+        <div class="payment-methods">
+
+            <div class="method active">
+                <i class="fa-regular fa-credit-card"></i>
+                <span>Card</span>
+            </div>
+
+            <div class="method">
+                <i class="fa-brands fa-bitcoin"></i>
+                <span>Crypto</span>
+            </div>
+
+            <div class="method">
+                <i class="fa-solid fa-building-columns"></i>
+                <span>Bank</span>
+            </div>
+
+        </div>
+
+        <label>Card Number</label>
+        <input type="text" placeholder="1234 5678 9012 3456">
+
+        <div class="checkout-row">
+
+            <div class="checkout-field">
+                <label>Expiry</label>
+                <input type="text" placeholder="MM/YY">
+            </div>
+
+            <div class="checkout-field">
+                <label>CVV</label>
+                <input type="text" placeholder="123">
+            </div>
+
+        </div>
+
+        <div class="checkout-row">
+
+            <div class="checkout-field">
+                <label>Country</label>
+                <select>
+                    <option>India</option>
+                </select>
+            </div>
+
+            <div class="checkout-field">
+                <label>ZIP Code</label>
+                <input type="text" placeholder="462001">
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Right Side -->
+    <div class="checkout-right">
+
+        <h3>Order Summary</h3>
+
+        <table class="checkout-table">
+
+            <tr>
+                <td>Sub Total</td>
+                <td>₹4198</td>
+            </tr>
+
+            <tr>
+                <td>Taxes</td>
+                <td>₹199</td>
+            </tr>
+
+            <tr>
+                <td>Discount</td>
+                <td>₹0</td>
+            </tr>
+
+            <tr class="checkout-total">
+                <td>Total</td>
+                <td>₹4397</td>
+            </tr>
+
+        </table>
+
+        <button class="checkout-pay-btn">
+            Pay Now ₹4397
+        </button>
+
+        <div class="checkout-images">
+            <img src="image/secure.webp" alt="">
+            <img src="image/rozorpay1.webp" alt="">
+        </div>
+
+    </div>
+
+</section>
+  </main>
+</body>
+</html>
